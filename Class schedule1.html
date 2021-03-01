@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Class schedule</title>
+	<link rel="stylesheet" href="VC.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://translate.google.com/intl/en/about/forbusiness/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+<body>
+	<section id="Firstyr">
+		<div class="banner-text">
+			<h1>Class Schedule</h1>
+      <p><b>First Year</b></p>
+      <img src="time table first year.jpeg" height="700px" width="1000px">
+		</div>
+	</section>
+    <symbol id="mi-arrow-dropdown" viewBox="0 0 24 24">
+    <path d="M7 10l5 5 5-5z"></path>
+    </symbol>
+	<div id="sideNav">
+		<nav>
+			<ul>
+				<li><a href="#Firstyr">First Year</a></li>
+				<li><a href="#Nonfirstyr">Non First Year</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div id="menuBtn">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5G3L51jwWcf6lkvNMzy0qeNXxiMJWSaMMEA&usqp=CAU" id="menu">
+	</div>
+    <!--about-us-->
+    <section id="Nonfirstyr">
+    	<div class="banner-text">
+        <p><b>Non First Year</b></p>
+    		<img src="time table nonfirst year.jpeg " height="700px" width="1000px">    		
+    	</div>
+    	
+	<script>
+
+		var sideNav = document.getElementById("sideNav")
+
+		sideNav.style.right = "-250px"
+		menuBtn.onclick = function(){
+			if(sideNav.style.right == "-250px"){
+				sideNav.style.right = "0";
+			}
+			else{
+				sideNav.style.right = "-250px";
+			}
+		}
+    var scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 1000,
+  speedAsDuration: true
+});
+	</script>
+
+
+</body>
+</html>
